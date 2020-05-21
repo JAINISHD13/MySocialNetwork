@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MySocialNetwork</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string-array name="CheckPostType">
+        <item>Private</item>
+        <item>Public</item>
+        <item>Friends</item>
+        <item>Group</item>
+    </string-array>
+</resources>

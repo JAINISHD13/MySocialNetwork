@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimage"
+    tools:context=".Activity.PostActivity">
+
+    <include
+        android:id="@+id/update_post_page_toolbar"
+        layout="@layout/app_bar_layout">
+    </include>
+
+    <EditText
+        android:id="@+id/post_written"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Write your thoughts here..."
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/checkPostSpinner"
+        android:layout_width="250dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/post_written"
+        android:entries="@array/CheckPostType"
+        android:layout_height="50dp">
+
+    </android.support.v7.widget.AppCompatSpinner>
+
+    
+    <Button
+        android:id="@+id/add_post_final"
+        android:layout_below="@+id/checkPostSpinner"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/buttons"
+        android:text="Add Post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</RelativeLayout>

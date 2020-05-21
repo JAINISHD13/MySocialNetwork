@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "977548465671",
+    "firebase_url": "https://socialnetwork-caedf.firebaseio.com",
+    "project_id": "socialnetwork-caedf",
+    "storage_bucket": "socialnetwork-caedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977548465671:android:247eb607cfa94bb25b7ca2",
+        "android_client_info": {
+          "package_name": "com.example.jainishadabhi.mysocialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977548465671-ji8bbchbuhhe7o4fftoejhmjf8unes0l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jainishadabhi.mysocialnetwork",
+            "certificate_hash": "c66da7882888d5eef7b64ca363e17020dffbd5ae"
+          }
+        },
+        {
+          "client_id": "977548465671-fq4fsfe5aspns0n3ipkqvls6jmlonlts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJH5ICFlad8ArHXMfiZI9FpqNVTwzkRvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977548465671-fq4fsfe5aspns0n3ipkqvls6jmlonlts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
